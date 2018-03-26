@@ -113,7 +113,7 @@ def all_holidays_with_bbq(holiday_hash)
          supplies.each do | things|
              if things == "BBQ"
                holidays << event
-              end 
+             end 
             end
           end
         end
