@@ -110,12 +110,10 @@ def all_holidays_with_bbq(holiday_hash)
     holidays = []
       holiday_hash.each do |season, data_hash|
         data_hash.each do |event, supplies|
-          i = 0
-          while i < supplies.length
-              if supplies[i] == 'BBQ'
-                binding.pry
-                holidays << event
-                i+=1
+         supplies.each do | things|
+             if things == "BBQ"
+               holidays << event
+              end 
             end
           end
         end
