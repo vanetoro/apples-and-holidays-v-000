@@ -114,8 +114,8 @@ def all_holidays_with_bbq(holiday_hash)
              if things == "BBQ"
                holidays << event
              end 
-              end
-            end
+         end
+         end
           end
         end  
   holidays
