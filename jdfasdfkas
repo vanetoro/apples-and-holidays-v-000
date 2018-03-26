@@ -1,0 +1,31 @@
+
+[1mFrom:[0m /home/vanetoro/apples-and-holidays-v-000/lib/holiday.rb @ line 90 Object#all_supplies_in_holidays:
+
+     [1;34m78[0m: [32mdef[0m [1;34mall_supplies_in_holidays[0m(holiday_hash)
+     [1;34m79[0m:   [1;34m# iterate through holiday_hash and print items such that your readout resembles:[0m
+     [1;34m80[0m:   [1;34m# Winter:[0m
+     [1;34m81[0m:   [1;34m#   Christmas: Lights, Wreath[0m
+     [1;34m82[0m:   [1;34m#   New Years: Party Hats[0m
+     [1;34m83[0m:   [1;34m# Summer:[0m
+     [1;34m84[0m:   [1;34m#   Fourth Of July: Fireworks, BBQ[0m
+     [1;34m85[0m:   [1;34m# etc.[0m
+     [1;34m86[0m:     all_supplies = []
+     [1;34m87[0m:     holiday_hash.each [32mdo[0m | season, data_hash |
+     [1;34m88[0m:       data_hash.each [32mdo[0m | event, supplies|
+     [1;34m89[0m:        new_event =  event.to_s
+ =>  [1;34m90[0m:        binding.pry
+     [1;34m91[0m:         [1;34m# if new_event.index('_')[0m
+     [1;34m92[0m:         [1;34m#     new_event.split('_')[0m
+     [1;34m93[0m:         [1;34m#           i=0[0m
+     [1;34m94[0m:         [1;34m#           while i< 0[0m
+     [1;34m95[0m:         [1;34m#             new_event[i].capitalize![0m
+     [1;34m96[0m:         [1;34m#             i+=1[0m
+     [1;34m97[0m:         [1;34m#           end[0m
+     [1;34m98[0m: 
+     [1;34m99[0m:         [1;34m# end.join(' ')    [0m
+    [1;34m100[0m:         puts [31m[1;31m"[0m[31m#{season.capitalize}[0m[31m:[1;31m"[0m[31m[0m
+    [1;34m101[0m:         puts [31m[1;31m"[0m[31m  #{event.capitalize}[0m[31m: #{supplies.join([1;31m'[0m[31m, [1;31m'[0m[31m[0m[31m) }[0m[31m[1;31m"[0m[31m[0m
+    [1;34m102[0m:       [32mend[0m  
+    [1;34m103[0m:     [32mend[0m
+    [1;34m104[0m: [32mend[0m
+
